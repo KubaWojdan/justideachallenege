@@ -1,0 +1,20 @@
+.btn-form{
+    margin:auto;
+    grid-column:1 / span 3; 
+    grid-row: 5 /span 1;
+}
+
+input[type=submit]{
+    padding:1rem 4.5rem;
+    background-color: $color-light-blue;
+    color: $color-white;
+    border:1px solid $color-light-blue;
+    cursor: pointer;
+    z-index:100;
+
+    &:hover{
+        background-color: rgb(80, 173, 240);
+        border:1px solid rgb(80, 173, 240);
+
+    }
+}
